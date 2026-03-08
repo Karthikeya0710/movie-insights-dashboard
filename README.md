@@ -1,6 +1,7 @@
 Movie Insights Dashboard
 
 This project analyzes an IMDB movie dataset and presents insights using an interactive dashboard built with Streamlit.
+The dashboard allows users to explore movie trends such as genres, ratings, popularity, and release patterns.
 
 Technologies Used
 
@@ -16,30 +17,46 @@ Features
 
 Movies released per year analysis
 
-Top movie genres
+Top movie genres visualization
 
-Language distribution
+Language distribution analysis
 
-Top rated movies
+Top rated movies identification
 
-Popularity vs rating analysis
+Popularity vs rating relationship
 
-Most voted movies
+Most voted movies analysis
 
 Genre trends over time
 
 Interactive Streamlit dashboard
 
-Year filtering
+Year range filtering
 
 Dataset
 
 IMDB Top Rated Movies Dataset from Kaggle.
 
+The dataset contains information about:
+
+Movie titles
+
+Release dates
+
+Genres
+
+Original language
+
+Popularity
+
+Vote count
+
+Average rating
+
 How to Run the Project
 
 1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/movie-insights-dashboard.git
+git clone https://github.com/Karthikeya0710/movie-insights-dashboard.git
 cd movie-insights-dashboard
 
 2️⃣ Install required libraries
@@ -48,26 +65,43 @@ pip install streamlit pandas matplotlib
 3️⃣ Run the dashboard
 python -m streamlit run dashboard.py
 
-After running the command, the dashboard will open in your browser.
+After running the command, the dashboard will open automatically in your browser.
 
-Project Structure
+## Project Structure
+
+```
 movie-insights-dashboard
 │
 ├── analysis.py
 ├── dashboard.py
 ├── movie_dataset.csv
 ├── images/
+│   ├── movies_per_year.png
+│   ├── top_genres.png
+│   └── ...
 └── README.md
+```
 Dashboard Preview
 
-The dashboard includes:
+The dashboard allows users to explore:
 
-Movie production trends
+Movie production trends over time
 
-Genre popularity
+Popular movie genres
 
-Language distribution
+Language distribution of movies
 
-Movie rating analysis
+Highest rated movies
 
-Interactive year filtering
+Relationship between popularity and rating
+
+Most voted movies
+
+Genre trends across years
+
+Author
+
+Karthikeya M
+
+GitHub:
+https://github.com/Karthikeya0710
