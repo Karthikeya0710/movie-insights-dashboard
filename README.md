@@ -37,11 +37,14 @@ Dataset
 IMDB Top Rated Movies Dataset from Kaggle.
 
 How to Run the Project
+
 1️⃣ Clone the repository
 git clone https://github.com/YOUR_USERNAME/movie-insights-dashboard.git
 cd movie-insights-dashboard
+
 2️⃣ Install required libraries
 pip install streamlit pandas matplotlib
+
 3️⃣ Run the dashboard
 python -m streamlit run dashboard.py
 
